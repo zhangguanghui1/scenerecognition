@@ -28,7 +28,7 @@ SUN397Dataset.py、MITIndoor67Dataset.py、ADE20KDataset.py、Places365Dataset.p
     topk [tensor(79.0831), tensor(90.3678), tensor(96.9572)] 
 
 三、计算耗时
-   python infer_time_z.py 
+    python infer_time_z.py 
    支持切换VIT+ResNet、VIT版本. 
    VIT+ResNet：0.2s左右 
    VIT: 0.16s左右
