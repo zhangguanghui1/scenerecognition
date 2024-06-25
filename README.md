@@ -2,7 +2,7 @@
 按照论文(https://github.com/vpulab/Semantic-Aware-Scene-Recognition)要求下载4个场景识别数据集SUN397（重点数据集，可从百度网盘下载：XXTODO）、MITIndoor67、ADE20K、Places365 
 SUN397Dataset.py、MITIndoor67Dataset.py、ADE20KDataset.py、Places365Dataset.py 是加载数据集的对应文件
 
-环境见vit-scene.txt. 重要的：ubuntu18.04 cuda11.3 pytorch 1.12.0+cu113
+环境见vit_scene.txt. 安装时，注意不要pip install -r vit_scene.txt，建议是选择里面的非系统基础库安装。重要的：ubuntu18.04 cuda11.3 pytorch 1.12.0+cu113
 
 二、推理测试
 1. VIT+ResNet版本
